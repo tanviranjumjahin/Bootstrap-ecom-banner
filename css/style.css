@@ -1,0 +1,78 @@
+/* all common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* all common css end  */
+/* header part start  */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-link {
+	color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .4s;
+}
+.nav-link:hover{
+    color: #4756DF;
+}
+.Contact_btn{
+    padding: 15px 42px;
+    background: #4756DF;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* header part end  */
+/* banner part start  */
+#banner_part{
+    background: url(../images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_overly{
+    padding-top: 330px;
+    padding-bottom: 165px;
+    background: rgba(0, 0, 0, 0.62);
+}
+.banner_text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.banner_text p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 232px;
+}
+.banner_text a{
+    padding: 15px 42px;
+    background: #4756DF;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* banner part End */
